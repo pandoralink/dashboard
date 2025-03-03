@@ -7,6 +7,9 @@ export default defineConfig({
     open: true,
     port: 3000
   },
+  build: {
+    outDir: 'docs'  // 设置打包输出目录为 docs
+  },
   esbuild: {
     loader: 'jsx'
   }
