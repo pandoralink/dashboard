@@ -1,0 +1,4 @@
+scripts
+node_modules
+src/mapper/database.json
+index.d.ts

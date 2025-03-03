@@ -1,0 +1,26 @@
+{
+  "name": "juejin-dashboard",
+  "version": "1.0.0",
+  "description": "掘金Trae活动数据可视化大盘",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@douyinfe/semi-ui": "^2.47.0",
+    "alasql": "^4.1.0",
+    "axios": "^1.6.0",
+    "dayjs": "^1.11.13",
+    "echarts": "^5.4.3",
+    "echarts-for-react": "^3.0.2",
+    "node-sql-parser": "^5.3.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "vite": "^4.5.0"
+  }
+}
